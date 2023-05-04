@@ -1,0 +1,41 @@
+{
+  "projects": [
+    {
+      "date": "Aug 2022",
+      "title": "MYMO",
+      "description": "MYMO is a web-based shopping application built with ReactJS and Bootstrap that allows customers to provides shopping card.",
+      "url": "https://paswanatul-mymo.netlify.app/",
+      "imgSrc": "https://static.momspresso.com/mymo/shop-new.png"
+    },
+
+    {
+      "date": "Jan 2023",
+      "title": "NewsMonkey",
+      "description": "It 's a web based new application built on ReactJS, Bootstrap and with the help of News API. ",
+      "url": "/",
+      "imgSrc": "https://media.istockphoto.com/id/1065782416/photo/online-news-in-mobile-phone-close-up-of-smartphone-screen-man-reading-articles-in-application.jpg?b=1&s=170667a&w=0&k=20&c=3sEfQJpggmkOhFRisDiwqO3GGDNnholVOmA15956ViE="
+    },
+    {
+      "date": " Feb 2022",
+      "title": "Spotify Clone",
+      "description": "It is a web based music application built using HTML,CSS and JAVASCRIPT . ",
+      "url": "https://paswanatul-spotify-clone.netlify.app/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2016/10/22/00/15/spotify-1759471__480.jpg"
+    },
+
+    {
+      "date": "Working",
+      "title": "REACT CART",
+      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+      "url": "https://react-cart-eosin.vercel.app",
+      "imgSrc": "https://cdn.pixabay.com/photo/2019/12/14/08/36/shopping-4694470_960_720.jpg"
+    },
+    {
+      "date": "20/10/2022",
+      "title": "PORTFOLIO",
+      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+      "url": "/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
+    }
+  ]
+}
