@@ -3,7 +3,7 @@ import "../styles/app.scss"
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
-import me from "../assets/AtulIm1.png";
+import me from "../assets/atul1.png";
 const Home = () => {
   const animations = {
     h1: {
