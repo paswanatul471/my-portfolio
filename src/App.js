@@ -8,6 +8,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import { Toaster } from 'react-hot-toast'
 import React, { useState } from 'react'
+import Skills from './components/Skills'
 
 const App = () => {
   const [menuOpen,setMenuOpen] = useState(false);
@@ -17,6 +18,7 @@ const App = () => {
     <HeaderPhone menuOpen={menuOpen}/>
     <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
     <Home/>
+    <Skills/>
     <Work />
     <Timeline/>
     <Services/>

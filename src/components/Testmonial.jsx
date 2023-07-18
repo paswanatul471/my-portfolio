@@ -8,13 +8,13 @@ const Testmonial = () => {
       
       <section>
         <TestmonialCard name={"Atul"} 
-        feedback={"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, temporibus?"} 
+        feedback={""} 
         />
         <TestmonialCard name={"Atul"} 
-        feedback={"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, temporibus?"} 
+        feedback={""} 
         />
         <TestmonialCard name={"Atul"} 
-        feedback={"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, temporibus?"} 
+        feedback={""} 
         />
 
       </section>

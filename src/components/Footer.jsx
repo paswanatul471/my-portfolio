@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
         <div>
             <img src={"https://avatars.githubusercontent.com/u/90141410?v=4"} alt="Founder" />
-            <h2>Atuk Paswan</h2>
+            <h2>Atul Paswan</h2>
             <p>When nothing goes right... Swipe!</p>
         </div>
         <aside>

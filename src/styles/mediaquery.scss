@@ -196,9 +196,15 @@
     .navBtn {
       display: block;
     }
+    
   }
   
   @media screen and (max-width: 600px) {
+    .skill-set{
+      display: flex;
+      flex-direction: column;
+      
+    }
     #home {
       height: unset;
       flex-direction: column-reverse;

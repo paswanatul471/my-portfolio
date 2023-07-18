@@ -1,0 +1,61 @@
+#skill{
+    width: 100%;
+    height: 100vh;
+    padding: 8rem $p;
+    
+    >h2{
+        text-align: center;
+    }
+
+    >div{
+        display: grid;
+        grid-template-columns:  5fr 5fr;
+        
+        padding: 1rem 0;
+        
+       
+       
+
+        
+    }
+    
+}
+
+.skill-set{
+    align-items: center;
+}
+.secondary-skill{
+    
+        >p{
+        color: rgb(175, 22, 22);
+        font-weight: 600;
+        align-items: center;
+        text-align: center;
+        margin-top: 1rem;
+        }
+        >ul{
+            margin-top: 2rem;
+            >li{
+                list-style: circle;
+                margin: 5px 0;
+            }
+        }
+
+}
+.primary-skill{
+    >p{
+        color: rgb(175, 22, 22);
+        font-weight: 600;
+        align-items: center;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    >ul{
+        margin-top: 2rem;
+        
+        >li{
+            list-style: circle;
+            margin: 5px 0;
+        }
+    }
+}
