@@ -15,6 +15,7 @@ const Header = ({setMenuOpen, menuOpen}) => {
   );
 };
 export const HeaderPhone = ({menuOpen, setMenuOpen}) => {
+
   return (
     <div className={`navPhone ${menuOpen ? "navPhoneComes" : ""}`}>
         <NavContent setMenuOpen={setMenuOpen}/>
@@ -23,7 +24,9 @@ export const HeaderPhone = ({menuOpen, setMenuOpen}) => {
 }
 
 
-const NavContent = ({setMenuOpen}) => (
+const NavContent = ({setMenuOpen}) => {
+  const Link = "https://drive.google.com/file/d/1DZSkIRy7Adv4tCzZraujuZBDU5Ahscsc/view?usp=sharing"
+return(
   <>
   <h2>Atul Paswan</h2>
   <div>
@@ -32,11 +35,13 @@ const NavContent = ({setMenuOpen}) => (
     <a onClick={()=>setMenuOpen(false)} href="#timeline">Experience</a>
     <a onClick={()=>setMenuOpen(false)} href="#services">Services</a>
     <a onClick={()=>setMenuOpen(false)} href="#contact">Contact</a>
+    <a onClick={()=>setMenuOpen(false)} href={Link} download>Resume</a>
   </div>
   <a href="mailto:atulpaswan324@gmail.com">
     <button>Email</button>
   </a>
   </>
-);
+)
+};
 
 export default Header;
