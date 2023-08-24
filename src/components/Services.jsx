@@ -26,8 +26,8 @@ const Services = () => {
         <h2>Services</h2>
         <section>
             <motion.div className="serviceBox1" whileInView={animations.whileInView} initial={animations.one}>
-                <h3>2+</h3>
-                <p>Months Experience</p>
+                <h3>1+</h3>
+                <p>year's Experience</p>
 
             </motion.div>
             <motion.div className="serviceBox2" whileInView={animations.whileInView} initial={animations.twoAndThree}>

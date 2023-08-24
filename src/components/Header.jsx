@@ -25,7 +25,7 @@ export const HeaderPhone = ({menuOpen, setMenuOpen}) => {
 
 
 const NavContent = ({setMenuOpen}) => {
-  const Link = "https://drive.google.com/file/d/1DZSkIRy7Adv4tCzZraujuZBDU5Ahscsc/view?usp=sharing"
+  const Link = "https://drive.google.com/file/d/1IyEL21xJgomQ7ESp-_jrQY9yUpioEGvW/view?usp=sharing"
 return(
   <>
   <h2>Atul Paswan</h2>
