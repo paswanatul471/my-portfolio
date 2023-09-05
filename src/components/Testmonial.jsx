@@ -18,7 +18,6 @@
 //         />
 
 //       </section>
-//       {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat facere, quisquam distinctio illum error laborum, quia qui provident enim dolorem incidunt dolor. Enim iusto ab blanditiis cupiditate id mollitia vel. */}
 //     </div>
 //   )
 // }
