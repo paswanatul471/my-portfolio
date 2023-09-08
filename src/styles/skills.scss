@@ -1,61 +1,70 @@
 #skill{
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     padding: 8rem $p;
     
     >h2{
         text-align: center;
     }
 
-    >div{
-        display: grid;
-        grid-template-columns:  5fr 5fr;
-        
-        padding: 1rem 0;
-        
-       
-       
-
-        
-    }
-    
+   
 }
-
 .skill-set{
-    align-items: center;
-}
-.secondary-skill{
-    
-        >p{
-        color: rgb(175, 22, 22);
-        font-weight: 600;
-        align-items: center;
-        text-align: center;
-        margin-top: 1rem;
-        }
-        >ul{
-            margin-top: 2rem;
-            >li{
-                list-style: circle;
-                margin: 5px 0;
-            }
-        }
+    display: flex;
+    justify-content: center;
 
 }
-.primary-skill{
-    >p{
-        color: rgb(175, 22, 22);
-        font-weight: 600;
-        align-items: center;
-        text-align: center;
-        margin-top: 1rem;
-    }
-    >ul{
-        margin-top: 2rem;
-        
-        >li{
-            list-style: circle;
-            margin: 5px 0;
-        }
-    }
+.skill-box{
+    margin: 35px 5px 10px 5px;
+    width: 25%;
+    opacity: 0; /* Initially set opacity to 0 */
+  transform: translateY(20px); /* Initially move skill boxes down */
+  animation: fadeInUp 0.5s ease forwards; /* Apply the animation */
+  animation-delay: 0.2s; /* Add a delay for each skill box */
+    
 }
+.skill-box span{
+    border: 1px solid #f26440;
+    background-color: #f26440;
+    color: white;
+    padding: 16px 43px;
+    border-radius: 5px;
+    
+}
+.skill-box span:hover{
+    box-shadow: 4px 4px 2px 4px #f26440;
+    background-color: white;
+    color: #f26440;
+    border: none;
+    
+}
+
+@media screen and (max-width: 667px) {
+    .skill-set {
+      flex-direction: column;
+  
+      .skill-box {
+        width: 100%; // Make each skill box take up the full width
+        margin: 10px 0; // Adjust the margin to your preference
+        animation-delay: 0.2s; /* Adjust the delay as needed */
+
+      }
+      .skill-box span{
+        padding: 7px 12px;
+        display: flex;
+        justify-content: center;
+      };
+    }
+
+    #skill{
+        height: 100%;
+    }
+  }
+  
+  
+@keyframes fadeInUp {
+    to {
+      opacity: 1; /* When animation completes, set opacity to 1 */
+      transform: translateY(0); /* Move skill boxes back to their original position */
+    }
+  }

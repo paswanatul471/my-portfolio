@@ -5,34 +5,50 @@ function Skills() {
     <div id="skill">
       <h2>Skills</h2>
       <div className="skill-set">
-        <div className="primary-skill">
-          <p >Technical Skills</p>
-          <ul className="list-element">
-            <li>ReactJS, React Hooks, React Redux</li>
-            <li>JavaScript, C#, Python, C++</li>
-            <li>.Net, ASP.Net</li>
-            <li>NodeJS, ExpressJS</li>
-            <li>MYSQL, MongoDB</li>
-            <li>Bootstrap, Tailwind CSS</li>
-            <li>HTML, CSS, SCSS</li>
-            <li>Git, Github</li>
-          </ul>
+        <div className="skill-box">
+          <span>React.js</span>
         </div>
-        <div className="secondary-skill">
-        <p >Soft Skills</p>
-          <ul type="circle">
-            <li>Excellent written and verbal communication skills </li>
-            <li>Critical thinking and problem-solving abilities</li>
-            <li>Adaptability and ability to work effectively in a team </li>
-            <li>Strong work ethic and attention to detail </li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            
-          </ul>
+        <div className="skill-box">
+          <span>JavaScript</span>
         </div>
-       
+        <div className="skill-box">
+          <span>TypeScript</span>
+        </div>
+        <div className="skill-box">
+          <span>HTML5</span>
+        </div>
+        <div className="skill-box">
+          <span>CSS3</span>
+        </div>
+        <div className="skill-box">
+          <span>SASS</span>
+        </div>
+        <div className="skill-box">
+          <span>Bootstrap</span>
+        </div>
+      </div>
+      <div className="skill-set">
+        <div className="skill-box">
+          <span>TailwindCSS</span>
+        </div>
+        <div className="skill-box">
+          <span>Node.js</span>
+        </div>
+        <div className="skill-box">
+          <span>Express.js</span>
+        </div>
+        <div className="skill-box">
+          <span>MongoDB</span>
+        </div>
+        <div className="skill-box">
+          <span>MySQL</span>
+        </div>
+        <div className="skill-box">
+          <span>API</span>
+        </div>
+        <div className="skill-box">
+          <span>GitHub</span>
+        </div>
       </div>
     </div>
   );
